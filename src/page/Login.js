@@ -18,7 +18,7 @@ const Login = () => {
                 <div className="pass">
                     <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
                         <FaLock className="icon" sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
-                        <TextField id="input-with-sx" label="Enter Your Username" variant="standard" />
+                        <TextField id="input-with-sx" label="Enter Your Password" variant="standard" />
                     </Box>
                 </div>
                 <p className='forget'>Forget Password?</p>
