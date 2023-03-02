@@ -5,6 +5,7 @@ import Home from './page/Home';
 import Header from './component/Header';
 import Nopage from './page/Nopage';
 import Footer from './component/Footer';
+import Login from './page/Login';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/login' element={<Login />} />
           <Route path='*' element={<Nopage />} />
         </Routes>
         <Footer />

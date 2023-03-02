@@ -26,6 +26,9 @@ const Header = () => {
                     <li>
                         <Link to="/Contact" onClick={() => { setshow(false) }}>Contact</Link>
                     </li>
+                    <li>
+                        <Link to="/login"><button type='button'>Login</button></Link>
+                    </li>
                 </ul>
             </div>
             <div className="navbutton" onClick={() => { setshow(!show) }}>
