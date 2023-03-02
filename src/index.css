@@ -399,16 +399,21 @@ body {
 }
 
 .login button {
-  padding: 3px 20px;
+  padding: 5px 40px;
   border-radius: 10px;
   border: none;
   font-weight: bold;
   font-size: 18px;
   cursor: pointer;
-  background-color: #1d1d1d;
+  background-image: linear-gradient(68.3deg, rgba(245, 177, 97, 1) 0.4%, rgba(236, 54, 110, 1) 100.2%);
   color: #f3f3f3;
   margin: 0 auto;
   display: block;
+}
+
+.login button:hover {
+  color: #1d1d1d;
+  transition: 0.5s ease;
 }
 
 .login .sign {
